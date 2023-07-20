@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: white;
+  background-image: radial-gradient(black 1px, transparent 0);
+  background-size: 20px 20px;
+  background-position: -19px -19px;
+}
+
+/* 
+-------------------------- MEDIA QUERY CHEATSHEET --------------------------
+
+"sm"      640px       (min-width: 640px)
+"md"	    768px       (min-width: 768px)
+"lg"	    1024px      (min-width: 1024px)
+"xl"	    1280px      (min-width: 1280px)
+"2xl"	    1536px      (min-width: 1536px) 
+
+*/
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
