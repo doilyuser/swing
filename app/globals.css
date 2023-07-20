@@ -3,20 +3,30 @@
 @tailwind utilities;
 
 body {
-  background: white;
-  background-image: radial-gradient(black 1px, transparent 0);
+  background: ffffff;
+  background-image: radial-gradient(#bdbdbd 1px, transparent 0);
   background-size: 20px 20px;
   background-position: -19px -19px;
 }
 
 /* 
--------------------------- MEDIA QUERY CHEATSHEET --------------------------
+-------------------------- CSS CHEATSHEET --------------------------
+
+MEDIA QUERIES:
 
 "sm"      640px       (min-width: 640px)
 "md"	    768px       (min-width: 768px)
 "lg"	    1024px      (min-width: 1024px)
 "xl"	    1280px      (min-width: 1280px)
 "2xl"	    1536px      (min-width: 1536px) 
+
+COLOURS:
+
+black     #000000
+white     #ffffff
+grey      #bdbdbd
+red       #ff6a6a
+blue      #5772a0
 
 */
 
