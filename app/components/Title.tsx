@@ -5,9 +5,9 @@ const fingerPaint = Finger_Paint({ subsets: ['latin'], weight: ['400'] })
 
 export function Title() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center p-10">
       <h1
-        className={`${fingerPaint.className} text-5xl md:text-6xl xl:text-7xl 2xl:text-8xl`}
+        className={`${fingerPaint.className} text-6xl md:text-7xl 2xl:text-8xl`}
       >
         Swing
       </h1>
