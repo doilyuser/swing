@@ -1,12 +1,16 @@
-export type Button = {
+interface FancyButtonProps {
   name: string
+  handleClick?: () => void
 }
 
-export function FancyButton({ name }: Button) {
+export function FancyButton({ name, handleClick }: FancyButtonProps) {
   return (
     <>
-      <button className="group relative h-12 w-48 overflow-hidden rounded-full bg-swing-white text-base shadow">
-        <div className="absolute inset-0 w-3 bg-swing-red transition-all duration-300 ease-out group-hover:w-full"></div>
+      <button
+        onClick={handleClick}
+        className="relative w-48 h-12 overflow-hidden text-base rounded-full shadow group bg-swing-white"
+      >
+        <div className="absolute inset-0 w-3 transition-all duration-300 ease-out bg-swing-red group-hover:w-full"></div>
         <span className="relative text-swing-black group-hover:text-swing-white">
           {name}
         </span>
