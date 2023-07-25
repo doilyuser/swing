@@ -27,6 +27,12 @@ export function Icons() {
         <Icon name="shopping" />
         <Icon name="target" />
       </div>
+      <div className="flex  w-full justify-evenly p-2">
+        <Icon name="contract" />
+        <Icon name="send" />
+        <Icon name="shopping" />
+        <Icon name="target" />
+      </div>
     </div>
   )
 }
