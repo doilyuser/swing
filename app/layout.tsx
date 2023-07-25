@@ -1,8 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Finger_Paint, Poppins } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 
-//export const fingerPaint = Finger_Paint({ weight: ['400'], subsets: ['latin'] })
 const poppins = Poppins({ subsets: ['latin'], weight: ['400', '600'] })
 
 export const metadata: Metadata = {
