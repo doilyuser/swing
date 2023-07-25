@@ -1,8 +1,14 @@
-export function Radio() {
+export type Options = {
+  negative: string
+  neutral?: string
+  positive: string
+}
+
+export function Radio(options: Options) {
   return (
     <div className="flex justify-evenly">
       <div className="flex flex-col items-center">
-        <p>1</p>
+        <p>{options.negative}</p>
         <input type="radio" />
       </div>
       <div className="flex flex-col items-center">
@@ -10,7 +16,7 @@ export function Radio() {
         <input type="radio" />
       </div>
       <div className="flex flex-col items-center">
-        <br />
+        <p>{options.neutral ? options.neutral : <br />}</p>
         <input type="radio" />
       </div>
       <div className="flex flex-col items-center">
@@ -18,7 +24,7 @@ export function Radio() {
         <input type="radio" />
       </div>
       <div className="flex flex-col items-center">
-        <p>5</p>
+        <p>{options.positive}</p>
         <input type="radio" />
       </div>
     </div>
