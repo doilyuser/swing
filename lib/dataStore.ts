@@ -48,6 +48,7 @@ const useDataStore = create(
         }
         state.answers[id - 1].answer = answer
         console.log(state.answers[id - 1].answer)
+        console.table(state.answers)
       })
     },
   })),

@@ -1,6 +1,6 @@
 interface FancyButtonProps {
   name: string
-  handleClick: () => void
+  handleClick?: () => void
 }
 
 export function FancyButton({ name, handleClick }: FancyButtonProps) {
