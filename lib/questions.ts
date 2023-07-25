@@ -15,7 +15,7 @@ const dataObj = {
       question: 'How are you?',
       options: {
         posi: 'I would like know more',
-        neut: "I don't see colour/race",
+        neut: "I don't see colour",
         negi: 'Fuck te reo signs',
       },
       reoQuestion: 'Kei te pia koe?',
