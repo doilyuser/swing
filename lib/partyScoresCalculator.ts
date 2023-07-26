@@ -2,12 +2,12 @@ import { DataState } from '@/models/DataState'
 import { partyStances } from './partyStances'
 
 export function partyScoresCalculator(state: DataState) {
-  let answer = state.answers[i].answer
   //map through party scores in state
   return state.partyScores.map((partyScore) => {
     let newPartyScore = 0
     //loop through question answers in state
     for (let i = 0; i < state.answers.length; i++) {
+      let answer = state.answers[i].answer
       if (answer !== null) {
         //convert answer to percentage
         answer = answer * 20
