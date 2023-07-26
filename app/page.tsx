@@ -2,7 +2,7 @@ import { Splash } from './components/Splash'
 
 export default function Home() {
   return (
-    <main className="flex h-screen w-screen flex-col items-center justify-evenly">
+    <main className="flex h-screen w-screen  justify-evenly">
       <Splash />
     </main>
   )
