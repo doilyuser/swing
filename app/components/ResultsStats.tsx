@@ -18,6 +18,7 @@ export function ResultsStats() {
             .map((partyScore) => {
               return (
                 <StatBar
+                  key={partyScore.partyName}
                   percentage={partyScore.score}
                   partyName={partyScore.partyName}
                 />
