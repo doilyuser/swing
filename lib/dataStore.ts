@@ -9,26 +9,26 @@ interface Actions {
 
 const initialDataState: DataState = {
   answers: [
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
-    { answer: 0, importance: 0 },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
+    { answer: null, importance: null },
   ],
   partyScores: [
     { partyName: 'Green', score: 0 },
@@ -45,7 +45,7 @@ const useDataStore = create(
     ...initialDataState,
     setAnswer: async (id, answer, importance?) => {
       set((state) => {
-        //checks if importance level is there, sets if it is
+        //checks if importance level is there, sets if
         if (importance) {
           state.answers[id - 1].importance = importance
         }
