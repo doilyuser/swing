@@ -3,16 +3,13 @@ import { Title } from './Title'
 
 export function Splash() {
   return (
-    <>
-      {/* Here is where we can make the heights responsive */}
-      {/* This height should be like... 30%? */}
-      <div>
+    <div className="h-full w-11/12 max-w-xl">
+      <div className="h-1/6">
         <Title title={'Swing'} content={'By Loulan'} />
       </div>
-      {/* This height should be like... 60%? */}
-      <div className="flex flex-col items-center mb-10 bg-white rounded-lg w-72 pb-80">
+      <div className="h-3/4 rounded-lg bg-white">
         <Intro />
       </div>
-    </>
+    </div>
   )
 }
