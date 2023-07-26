@@ -1,4 +1,4 @@
 export interface Answer {
-  answer: number | null
-  importance?: number | null
+  answer: number
+  importance?: number
 }
