@@ -10,7 +10,7 @@ interface TitleProps {
 
 export function Title({ title, content }: TitleProps) {
   return (
-    <div className="flex flex-col items-center p-10">
+    <div className="flex h-full flex-col items-center justify-center">
       <h1
         className={`${fingerPaint.className} text-6xl md:text-7xl 2xl:text-8xl`}
       >
