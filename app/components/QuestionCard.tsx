@@ -14,9 +14,11 @@ interface QuestionProps {
 
 export function QuestionCard({ question }: QuestionProps) {
   const linkTo = question.id < 20 ? `/question/${question.id + 1}` : `/results`
-  const { setAnswer } = useDataStore()
+  const { answers, setAnswer } = useDataStore()
 
-  const [selectedOption, setSelectedOption] = useState<string>('0')
+  const [selectedOption, setSelectedOption] = useState<string>(
+    `${answers[question.id - 1].answer}`,
+  )
 
   const handleAnswer = () => {
     setAnswer(question.id, Number(selectedOption))

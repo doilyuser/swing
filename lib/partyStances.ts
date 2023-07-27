@@ -6,27 +6,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 50,
+        stance: 62,
       },
       {
         party: 'National',
-        stance: 50,
+        stance: 91,
       },
       {
         party: 'Labour',
-        stance: 50,
+        stance: 97,
       },
       {
         party: 'TPM',
-        stance: 50,
+        stance: 51,
       },
       {
         party: 'ACT',
-        stance: 50,
+        stance: 17,
       },
       {
         party: 'TEST',
-        stance: 0,
+        stance: 20,
       },
     ],
   },
@@ -35,27 +35,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
-      },
-      {
-        party: 'National',
-        stance: 30,
-      },
-      {
-        party: 'Labour',
         stance: 25,
       },
       {
+        party: 'National',
+        stance: 99,
+      },
+      {
+        party: 'Labour',
+        stance: 2,
+      },
+      {
         party: 'TPM',
-        stance: 80,
+        stance: 32,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 96,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -64,27 +64,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 16,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 56,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 31,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 13,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 4,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -93,27 +93,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 57,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 8,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 57,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 59,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 52,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -122,27 +122,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 42,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 64,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 70,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 46,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 53,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -151,27 +151,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 46,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 51,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 82,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 31,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 31,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -180,27 +180,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 70,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 78,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 58,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 11,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 37,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -209,27 +209,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 24,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 57,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 94,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 96,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 13,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -238,56 +238,56 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 96,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 75,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 68,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 77,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 38,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
   {
-    questionId: 10,
+    questionId: 37,
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 17,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 36,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 35,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 58,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 98,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -296,19 +296,19 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 50,
+        stance: 67,
       },
       {
         party: 'National',
-        stance: 50,
+        stance: 27,
       },
       {
         party: 'Labour',
-        stance: 50,
+        stance: 85,
       },
       {
         party: 'TPM',
-        stance: 50,
+        stance: 35,
       },
       {
         party: 'ACT',
@@ -316,7 +316,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: 50,
+        stance: 20,
       },
     ],
   },
@@ -325,27 +325,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 22,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 15,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 90,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 68,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 38,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -354,27 +354,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 71,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 70,
       },
       {
         party: 'Labour',
-        stance: 25,
-      },
-      {
-        party: 'TPM',
         stance: 80,
       },
       {
+        party: 'TPM',
+        stance: 25,
+      },
+      {
         party: 'ACT',
-        stance: 100,
+        stance: 12,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -383,27 +383,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
-      },
-      {
-        party: 'National',
-        stance: 30,
-      },
-      {
-        party: 'Labour',
-        stance: 25,
-      },
-      {
-        party: 'TPM',
         stance: 80,
       },
       {
+        party: 'National',
+        stance: 1,
+      },
+      {
+        party: 'Labour',
+        stance: 16,
+      },
+      {
+        party: 'TPM',
+        stance: 4,
+      },
+      {
         party: 'ACT',
-        stance: 100,
+        stance: 69,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -412,27 +412,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 47,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 90,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 32,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 96,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 92,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -441,27 +441,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 62,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 20,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 24,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 92,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 73,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -470,27 +470,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 2,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 78,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 8,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 63,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 86,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -499,27 +499,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 5,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 66,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 97,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 10,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 61,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -528,27 +528,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 89,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 57,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 40,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 30,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 51,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },
@@ -557,27 +557,27 @@ export const partyStances: PartyStances[] = [
     stances: [
       {
         party: 'Green',
-        stance: 10,
+        stance: 59,
       },
       {
         party: 'National',
-        stance: 30,
+        stance: 63,
       },
       {
         party: 'Labour',
-        stance: 25,
+        stance: 59,
       },
       {
         party: 'TPM',
-        stance: 80,
+        stance: 50,
       },
       {
         party: 'ACT',
-        stance: 100,
+        stance: 15,
       },
       {
         party: 'TEST',
-        stance: 75,
+        stance: 20,
       },
     ],
   },

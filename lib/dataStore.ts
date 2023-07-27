@@ -1,11 +1,10 @@
 import { create } from 'zustand'
 import { immer } from 'zustand/middleware/immer'
 import { DataState } from '@/models/DataState'
-import { partyScoreCalculator } from '@/lib/partyScoreCalculator'
+import { partyScoresCalculator } from './partyScoresCalculator'
 
 interface Actions {
   setAnswer: (id: number, answer: number, importance?: number) => void
-  setScore: (id: number, score: number) => void
 }
 
 const initialDataState: DataState = {
@@ -32,8 +31,8 @@ const initialDataState: DataState = {
     { answer: null, importance: null },
   ],
   partyScores: [
-    { partyName: 'Green', score: 50 },
-    { partyName: 'National', score: 100 },
+    { partyName: 'Green', score: 0 },
+    { partyName: 'National', score: 0 },
     { partyName: 'Labour', score: 0 },
     { partyName: 'TPM', score: 0 },
     { partyName: 'ACT', score: 0 },
@@ -42,19 +41,20 @@ const initialDataState: DataState = {
 }
 
 const useDataStore = create(
-  immer<DataState & Actions>((set) => ({
+  immer<DataState & Actions>((set, get) => ({
     ...initialDataState,
-    setAnswer: (id, answer, importance?) => {
+    setAnswer: async (id, answer, importance?) => {
       set((state) => {
+        //checks if importance level is there, sets if
         if (importance) {
           state.answers[id - 1].importance = importance
         }
+
+        //changes answer value between 1 - 5
         state.answers[id - 1].answer = answer
-      })
-    },
-    setScore: (id, score) => {
-      set((state) => {
-        const calculatedScore = partyScoreCalculator(id, score)
+
+        //sets party scores to a percentage based on answers
+        state.partyScores = partyScoresCalculator(state)
       })
     },
   })),

@@ -5,8 +5,8 @@ interface ButtonProps {
 export function Button({ name }: ButtonProps) {
   return (
     <>
-      <button className="relative w-48 h-12 overflow-hidden text-base rounded-full shadow group bg-swing-grey">
-        <span className="relative transition-all duration-300 text-swing-black group-hover:text-swing-white">
+      <button className="group relative h-12 w-48 overflow-hidden rounded-full bg-swing-grey text-base shadow">
+        <span className="relative text-swing-black transition-all duration-300 group-hover:text-swing-white">
           {name}
         </span>
       </button>
