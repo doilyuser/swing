@@ -9,8 +9,6 @@ export function partyScoresCalculator(state: DataState) {
     for (let i = 0; i < state.answers.length; i++) {
       let answer = state.answers[i].answer
       if (answer !== null) {
-        //convert answer to percentage
-        answer = answer * 20
         //get party stance percentage that matches party and question
         const stance = partyStances[i].stances.find(
           (el) => el.party === partyScore.partyName,
