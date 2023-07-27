@@ -21,8 +21,8 @@ export function Radio({
         <p>{options.negative}</p>
         <input
           type="radio"
-          value={1}
-          checked={selectedOption === '1'}
+          value={20}
+          checked={selectedOption === '20'}
           onChange={handleOptionChange}
         />
       </div>
@@ -30,8 +30,8 @@ export function Radio({
         <br />
         <input
           type="radio"
-          value={2}
-          checked={selectedOption === '2'}
+          value={40}
+          checked={selectedOption === '40'}
           onChange={handleOptionChange}
         />
       </div>
@@ -39,8 +39,8 @@ export function Radio({
         <p>{options.neutral ? options.neutral : <br />}</p>
         <input
           type="radio"
-          value={3}
-          checked={selectedOption === '3'}
+          value={60}
+          checked={selectedOption === '60'}
           onChange={handleOptionChange}
         />
       </div>
@@ -48,8 +48,8 @@ export function Radio({
         <br />
         <input
           type="radio"
-          value={4}
-          checked={selectedOption === '4'}
+          value={80}
+          checked={selectedOption === '80'}
           onChange={handleOptionChange}
         />
       </div>
@@ -57,8 +57,8 @@ export function Radio({
         <p>{options.positive}</p>
         <input
           type="radio"
-          value={5}
-          checked={selectedOption === '5'}
+          value={100}
+          checked={selectedOption === '100'}
           onChange={handleOptionChange}
         />
       </div>
