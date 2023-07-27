@@ -10,7 +10,7 @@ export function StatBar({ percentage, partyName }: StatBarProps) {
         className="flex items-center px-4 py-1 rounded-full bg-swing-grey"
         style={{ width: `${percentage}%` }}
       >
-        {`${partyName}: ${percentage}%`}
+        {`${partyName}: ${percentage.toFixed(1)}%`}
       </div>
     </div>
   )

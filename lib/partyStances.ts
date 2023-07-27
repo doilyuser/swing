@@ -26,7 +26,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -55,7 +55,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -84,7 +84,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -113,7 +113,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -142,7 +142,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -171,7 +171,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -200,7 +200,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -229,7 +229,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -258,7 +258,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -287,7 +287,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -316,7 +316,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -345,7 +345,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -374,7 +374,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -403,7 +403,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -432,7 +432,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -461,7 +461,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -490,7 +490,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -519,7 +519,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -548,7 +548,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
@@ -577,7 +577,7 @@ export const partyStances: PartyStances[] = [
       },
       {
         party: 'TEST',
-        stance: -10,
+        stance: 20,
       },
     ],
   },
