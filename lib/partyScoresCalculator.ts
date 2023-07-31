@@ -7,7 +7,7 @@ export function partyScoresCalculator(state: DataState) {
   let range = 20
   let importance = 100
   return state.partyScores.map((partyScore) => {
-    // let totalScore = 0
+    let answered = 0
     let newPartyScore = 0
     for (let i = 0; i < quizLength; i++) {
       const answer = state.answers[i].answer
@@ -15,12 +15,10 @@ export function partyScoresCalculator(state: DataState) {
         (el) => el.party === partyScore.partyName,
       )!.stance
       if (answer !== null) {
-        // We can use this variable if we want to increase score percentage based on unanswered questions
-        // totalScore += i * 100
-
+        answered += 1
         const difference = Math.abs(stance - answer)
         difference < range
-          ? (newPartyScore += (importance - difference) / quizLength)
+          ? (newPartyScore += (importance - difference) / answered)
           : null
       }
     }
