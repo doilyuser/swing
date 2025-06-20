@@ -47,7 +47,7 @@
 
 ## Demo 🎬
 
-Visit the [live application](https://swing-zeta.vercel.app/) to take the quiz and discover which New Zealand political party aligns with your values.
+We have a deployed WIP and technical evaluation deployed with Vercel. Visit the [live application](https://swing-zeta.vercel.app/) where you'll soon be able to take the quiz and discover which New Zealand political party aligns with your values.
 
 <br />
 
