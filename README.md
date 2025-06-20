@@ -18,9 +18,9 @@
 ## Table of Contents 📑
 - [Features](#features-)
 - [Demo](#demo-)
-- [Tech Stack](#tech-stack-)
+- [Tech Stack](#tech-stack-%EF%B8%8F)
 - [Project Structure](#project-structure-)
-- [Data Models](#data-models-)
+- [Data Models](#data-models-%EF%B8%8F)
 - [Getting Started](#getting-started-)
   - [Installation](#installation)
   - [Running Locally](#running-locally)
